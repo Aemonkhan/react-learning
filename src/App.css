@@ -1,3 +1,9 @@
 a{
   color:red;
 }
+.lighton{
+  background-color: aqua;
+}
+.lightoff{
+  background-color: blueviolet;
+}
