@@ -11,6 +11,7 @@ import { Bye } from "./component/Bye";
 import MediaCard from "./component/MediaCard";
 import Isopen from "./component/Isopen";
 import image from "./images/hi.jpg";
+import Api from "./component/Api";
 // import AddList from './components/AddList';
 
 function App() {
@@ -19,13 +20,14 @@ function App() {
       {/* //   <SideBar name='aemon' /> */}
       {/* <Header /> */}
       {/* <AddList /> */}
-      <MediaCard title='My MediaCard' body={(<p>My MediaCard working</p>)} imageUrl={(image)} />
+      {/* <MediaCard title='My MediaCard' body={(<p>My MediaCard working</p>)} imageUrl={(image)} />
       <Isopen />
       <List />
       <Switch />
       <AddSub />
       <Hi name=' aemon ' msg=' hello ' />
-      <Bye name=' aemon ' msg=' nice to meet you' />
+      <Bye name=' aemon ' msg=' nice to meet you' /> */}
+<Api />
 
 
       {/* <Block />
