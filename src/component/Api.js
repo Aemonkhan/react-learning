@@ -26,4 +26,4 @@ function Api() {
         </div>
     )
 }
-export default Api
+export default Api;

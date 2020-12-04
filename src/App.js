@@ -12,11 +12,16 @@ import MediaCard from "./component/MediaCard";
 import Isopen from "./component/Isopen";
 import image from "./images/hi.jpg";
 import Api from "./component/Api";
+import ThemeContextProvider from "./Context/ThemesContextA";
+import BookList from "./component/BookList";
+
+
 // import AddList from './components/AddList';
 
 function App() {
   return (
     <>
+  
       {/* //   <SideBar name='aemon' /> */}
       {/* <Header /> */}
       {/* <AddList /> */}
@@ -28,8 +33,9 @@ function App() {
       <Hi name=' aemon ' msg=' hello ' />
       <Bye name=' aemon ' msg=' nice to meet you' /> */}
 <Api />
-
-
+<ThemeContextProvider>
+  <BookList />
+</ThemeContextProvider>
       {/* <Block />
       <MyLinks /> */}
       {/* <div>
