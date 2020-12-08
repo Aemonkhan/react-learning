@@ -2,17 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
 import reportWebVitals from './reportWebVitals';
-import Main from './pages/Main';
-// function Hi(props){
-//   return <div>Hi</div>
-// }
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
-  <Main />
-    {/* <Hi /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
